@@ -275,7 +275,7 @@ title:`okta`,
 body: `${jam}`,
 thumbnail: thum,
 renderLargerThumbnail: true,
-sourceUrl: `https://wa.me/62857452677827`,
+sourceUrl: `https://wa.me/6285812373011`,
 }}}, { quoted: m })}
 /*const taaReply = (teks) => {
     return okta.sendMessage(from, {text: teks, contextinfo: {
