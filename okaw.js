@@ -27,7 +27,7 @@ global.zenz = 'zenzkey_41b4fe7a5d' // https://api.zahwazein.xyz
 global.keyopenai = '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'
 //====================BY Hw Mods=============================//
 global.botname = '𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.packname = '𝗙𝗮𝗻𝘇' // ubah aja ini nama sticker
+global.packname = '𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇' // ubah aja ini nama sticker
 global.ta = '•' //cuma simbol
 global.author = '𝘽𝙮 𝗙𝗮𝗻𝘇' // ubah aja ini nama sticker
 global.prefa = ['','!','.',',','🐤','🗿']
