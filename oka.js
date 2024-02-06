@@ -187,7 +187,7 @@ const ucapanWaktu = fildt.charAt(0).toUpperCase() + fildt.slice(1)
 const qtod = m.quoted? "true":"false"
 const isPrem = prem.includes(m.sender)
 //=================================================//}
-const cap = 'TaaOfc'
+const cap = 'FanzOffc'
 const kalgans = { 
 key: {
 fromMe: [], 
@@ -205,7 +205,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "0@s.whatsapp.net" } : 
 							"buttons": [
 								{
 									"name": "review_and_pay",
-									"buttonParamsJson": "{\"currency\":\"IDR\",\"external_payment_configurations\":[{\"uri\":\"\",\"type\":\"payment_instruction\",\"payment_instruction\":\"hey ini test\"}],\"payment_configuration\":\"\",\"payment_type\":\"\",\"total_amount\":{\"value\":2500000,\"offset\":100},\"reference_id\":\"4MX98934S0D\",\"type\":\"physical-goods\",\"order\":{\"status\":\"pending\",\"description\":\"\",\"subtotal\":{\"value\":2500000,\"offset\":100},\"items\":[{\"retailer_id\":\"6285731947500\",\"product_id\":\"685731947500\",\"name\":\"taaofc\",\"amount\":{\"value\":2500000,\"offset\":100},\"quantity\":1}]}}"
+									"buttonParamsJson": "{\"currency\":\"IDR\",\"external_payment_configurations\":[{\"uri\":\"\",\"type\":\"payment_instruction\",\"payment_instruction\":\"hey ini test\"}],\"payment_configuration\":\"\",\"payment_type\":\"\",\"total_amount\":{\"value\":2500000,\"offset\":100},\"reference_id\":\"4MX98934S0D\",\"type\":\"physical-goods\",\"order\":{\"status\":\"pending\",\"description\":\"\",\"subtotal\":{\"value\":2500000,\"offset\":100},\"items\":[{\"retailer_id\":\"6285731947500\",\"product_id\":\"685731947500\",\"name\":\"FanzOffc\",\"amount\":{\"value\":2500000,\"offset\":100},\"quantity\":1}]}}"
 								}
 							]
 			}
@@ -308,7 +308,7 @@ const ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid"
 		const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "m","groupName": ofc, "caption": `${pushname}`, 'jpegThumbnail': thum}}}
 		const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "status@broadcast" } : {}) },message: { "videoMessage": { "title":botname, "h": ofc,'seconds': '359996400', 'caption': `${pushname}`, 'jpegThumbnail': good}}}
 		const floc = {key : {participant : '0@s.whatsapp.net', ...(m.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: ofc,jpegThumbnail: thum}}}
-const fkontak = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `Ryo By TaaOfc`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;TaaOfc,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/3c485ff201d9337be14ef.jpg' }}}}
+const fkontak = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `FanzOffc`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;FanzOffc,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/3e73caaa589a8c4b69cee.jpg' }}}}
 function parseMention(text = '') {
 return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')
 }
@@ -363,7 +363,7 @@ fs.writeFileSync('./database/command.json',JSON.stringify(_db, null, 2));
 }
      
 async function loading () {
-var taaofc = [
+var FanzOffc = [
  '.',
  '..',
  '...',
@@ -374,9 +374,9 @@ var taaofc = [
 ]
 let { key } = await okta.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})//Awalan
 
-for (let i = 0; i < taaofc.length; i++) {
+for (let i = 0; i < FanzOffc.length; i++) {
 /*await delay(10)*/
-await okta.sendMessage(from, {text: taaofc[i], edit: key });//setelah nya
+await okta.sendMessage(from, {text: FanzOffc[i], edit: key });//setelah nya
 }
 }
 if (autodelete) {
@@ -484,7 +484,7 @@ async function sendGeekzMessage(chatId, message, options = {}){
 
 const sendapk = (teks) => {
 okta.sendMessage(from, { document: teks, mimetype: 'application/vnd.android.package-archive'}, {quoted:m})
-m.reply('*Rusak Om !! Yang Bener Contoh : Yoapk TaaOfc*')
+m.reply('*Rusak Om !! Yang Bener Contoh : Yoapk FanzOffc*')
 }
 for (let ikalii of apknye) {
 if (budy === ikalii) {
@@ -495,7 +495,7 @@ sendapk(buffer)
 //=================================================//
 const sendzip = (teks) => {
 okta.sendMessage(from, { document: teks, mimetype: 'application/zip'}, {quoted:m})
-m.reply('*Rusak Om !! Yang Bener Contoh : Yozip TaaOfc*')
+m.reply('*Rusak Om !! Yang Bener Contoh : Yozip FanzOffc*')
 }
 for (let ikali of zipnye) {
 if (budy === ikali) {
@@ -506,7 +506,7 @@ sendzip(buffer)
 //=================================================//
 const senddocu = (teks) => {
 okta.sendMessage(from, { document: teks, mimetype: 'application/pdf'}, {quoted:m})
-m.reply('*Rusak Om !! Yang Bener Contoh : Yopdf TaaOfc*')
+m.reply('*Rusak Om !! Yang Bener Contoh : Yopdf FanzOffc*')
 }
 for (let ikal of docunye) {
 if (budy === ikal) {
@@ -839,7 +839,7 @@ sᴇʟᴀᴍᴀᴛ ${ucapanWaktu} 😊
 ${menu}`;
      okta.sendMessage(from, { video: vidmenu, gifPlayback: true, caption: menuu, contextInfo:{ externalAdReply: {
 title: botname,
-body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙍𝙮𝙤 𝙆𝙖𝙘𝙠🙃`,
+body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙆𝙖𝙘𝙠🙃`,
 thumbnail: thum,
 mediaType: 1,
 thumbnailUrl: "",
@@ -897,7 +897,7 @@ case "simple":
        await loading()
        let taasimpel = `
 ┏❏═┅═━–〈 Bᴏᴛ Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ${ownername}
 ┆ ☂︎ 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -905,7 +905,7 @@ case "simple":
 ┗––––––––––✦
 ${simpel}`; okta.sendMessage(from, { video: vidmenu, gifPlayback: true, caption: taasimpel, contextInfo:{ externalAdReply: {
 title: botname,
-body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙍𝙮𝙤 𝙆𝙖𝙘𝙠🙃`,
+body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙆𝙖𝙘𝙠🙃`,
 thumbnail: thum,
 mediaType: 1,
 thumbnailUrl: "",
@@ -915,12 +915,12 @@ sourceUrl: `https://whatsapp.com/channel/0029VaGJcol1t90fUNWmkY0s`,
        break
 case "all":
        case "allmenu":
-       case "taall":
+       case "fanzall":
     //   if (!isRegistered) return replyMsg('Kamu belum daftar!\nSilahkan daftar dengan cara *.daftar nama.umur!*')
        await loading()
        let oktaall = `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -929,7 +929,7 @@ case "all":
 
 ${taall}`; okta.sendMessage(from, { video: vidmenu, gifPlayback: true, caption: oktaall, contextInfo:{ externalAdReply: {
 title: botname,
-body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙍𝙮𝙤 𝙆𝙖𝙘𝙠🙃`,
+body: `𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙥𝙖𝙢 𝙆𝙖𝙘𝙠🙃`,
 thumbnail: thum,
 mediaType: 1,
 thumbnailUrl: "",
@@ -962,7 +962,7 @@ Selamat ${ucapanWaktu}
 
 
  _Unduh Script Ini Melalui Tautan Dibawah Ini_
- *_https://taaofc-panel.my.id_*
+ *_https://FanzOffc-panel.my.id_*
 •-------------------------------------------------•`
                         }
                     },
@@ -1015,7 +1015,7 @@ if (isBan) return errorReply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await loading()
 reply(`
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1032,7 +1032,7 @@ const owned = `${owner}@s.whatsapp.net`
 const version = 2
 const text12 =
 `┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1065,7 +1065,7 @@ const text12 = `*Hi ${pushname}👋*
 ⭔ FauZi
 ⭔ PollyOfc ( beban )
 ⭔ Levian ( beban )
-⭔ TaaOfc (Gw Sendiri)
+⭔ FanzOffc (Gw Sendiri)
 ⭔ Temen Temen Gw
 ⭔ Subscriber Gw
 
@@ -1092,9 +1092,9 @@ case "sosmed":
 
 *_Social Media_*
 *IG : ▣https://www.instagram.com/oktaofcrill*
-*YT : ▣https://youtube.com/@taaofc*
+*YT : ▣https://youtube.com/@FanzOffc*
 *GH : ▣https://github.com/ChataOfc*
-*WEBSITE : ▣https://taaofc-panel.my.id/*
+*WEBSITE : ▣https://FanzOffc-panel.my.id/*
 *GC : ▣https://chat.whatsapp.com/IRRkLJqImnuB6lCjGzyME0*
 *INFO UPDATE BOT : ▣https://whatsapp.com/channel/0029VaF1TzwJf05gzljsO43l*
 
@@ -1146,7 +1146,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1178,7 +1178,7 @@ case 'groupmenu': {
     await loading()
 reply(`
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1194,7 +1194,7 @@ case 'tools': case 'tool': {
      await loading()
 reply(`
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1210,7 +1210,7 @@ break
     await loading()
 reply(`
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1226,7 +1226,7 @@ case 'islammenu': {
 await loading()
 reply(`
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1242,7 +1242,7 @@ case 'gasmenu': {
      await loading()
 reply(`
  ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1261,7 +1261,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1295,7 +1295,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1328,7 +1328,7 @@ break
      //  if (!isRegistered) return replyMsg('Kamu belum daftar!\nSilahkan daftar dengan cara *.daftar nama.umur!*')
      if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 reply(`┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1347,7 +1347,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1381,7 +1381,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1412,7 +1412,7 @@ break
 			await loading()
 			let rpg = `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1447,7 +1447,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1481,7 +1481,7 @@ Jam : ${time}`
 sendGeekzMessage(from, { 
 text: `
 ┏❏═┅═━–〈 Iɴғᴏ
-┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+┆ ☂︎ 𝙱𝚘𝚝 𝙽𝚊𝚖𝚎 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 ┆ ☂︎ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┆ ☂︎ 𝙿𝚛𝚎𝚖𝚒𝚞𝚖 : ${isPrem ? '✅' : '❎'}
 ┆ ☂︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${hariini}
@@ -1800,7 +1800,7 @@ break
 //=================================================/
 case "createqr": {
 const qrcode = require('qrcode')
-    if (!text) return errorReply(`Penggunaan Salah Harusnya ${prefix+command} taaofc`)
+    if (!text) return errorReply(`Penggunaan Salah Harusnya ${prefix+command} FanzOffc`)
 const qyuer = await qrcode.toDataURL(text, { scale: 8 })
 let data = new Buffer.from(qyuer.replace('data:image/png;base64,', ''), 'base64')
 okta.sendMessage(from, { image: data, caption: `Sukses Kak` }, { quoted: kalgans })
@@ -3852,7 +3852,7 @@ break
 case 'sewa':
 if (isBan) return reply('*Lu Di Ban Owner*')
 await loading()
-m.reply(`¥ *Price Sewa Bot TaaOfc* €
+m.reply(`¥ *Price Sewa Bot FanzOffc* €
 
 : ̗̀➛ 3 hari = 2k
 : ̗̀➛ 1 minggu = 5k
@@ -4133,7 +4133,7 @@ headers: hd
 }).then(res => {
 console.log(res);
 }).catch(err => {
-console.log(`[${new Date().toLocaleTimeString()}] Spam (SMS) BY TaaOfc`);
+console.log(`[${new Date().toLocaleTimeString()}] Spam (SMS) BY FanzOffc`);
 });
 }
 } else reply(`Penggunaan spamsms nomor/reply pesan target*\nContoh spamsms +6281214281312`)
@@ -4449,7 +4449,7 @@ await loading()
 await okta.sendMessage(from, { audio: oktagans, mimetype: 'audio/mp4', ptt: true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
 mediaUrl: 'https://wa.me/6285731947500',
-title: `TaaOfc`,
+title: `FanzOffc`,
 sourceUrl: `https://wa.me/6285731947500`, 
 thumbnail: thumb
 }
@@ -5072,7 +5072,7 @@ let audio = await toPTT(media, 'mp4')
 okta.sendMessage(from, {audio: audio, mimetype:'audio/mpeg', ptt:true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
 mediaUrl: 'https://wa.me/6285731947500',
-title: `TaaOfc`,
+title: `FanzOffc`,
 sourceUrl: `https://wa.me/6285731947500`, 
 thumbnail: thumb
 }
@@ -5326,7 +5326,7 @@ break
 case 'ramalanjodoh': case 'ramaljodoh': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 7, 7, 2005, Putri, 16, 11, 2004`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 7, 7, 2005, Putri, 16, 11, 2004`
  let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
  let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
  if (anu.status == false) return m.reply(anu.message)
@@ -5337,7 +5337,7 @@ break
 case 'artinama': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc Hw`
+ if (!text) throw `Example : ${prefix + command} FanzOffc Hw`
  let anu = await primbon.arti_nama(text)
  if (anu.status == false) return m.reply(anu.message)
  okta.sendText(from, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
@@ -5347,7 +5347,7 @@ break
 case 'kecocokannama': case 'cocoknama': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 7, 7, 2005`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 7, 7, 2005`
  let [nama, tgl, bln, thn] = text.split`,`
  let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
  if (anu.status == false) return m.reply(anu.message)
@@ -5358,7 +5358,7 @@ break
 case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc|Putri`
+ if (!text) throw `Example : ${prefix + command} FanzOffc|Putri`
  let [nama1, nama2] = text.split`|`
  let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
  if (anu.status == false) return m.reply(anu.message)
@@ -5446,7 +5446,7 @@ break
 case 'fengshui': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
  let [nama, gender, tahun] = text.split`,`
  let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
  if (anu.status == false) return m.reply(anu.message)
@@ -5512,7 +5512,7 @@ break
 case 'peruntungan': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 7, 7, 2005, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
  let [nama, tgl, bln, thn, untuk] = text.split`,`
  let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
  if (anu.status == false) return m.reply(anu.message)
@@ -5534,7 +5534,7 @@ break
 case 'sifat': case 'karakter': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 7, 7, 2005`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 7, 7, 2005`
  let [nama, tgl, bln, thn] = text.split`,`
  let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
  if (anu.status == false) return m.reply(anu.message)
@@ -5545,7 +5545,7 @@ break
 case 'keberuntungan': {
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
 await loading()
- if (!text) throw `Example : ${prefix + command} TaaOfc, 7, 7, 2005`
+ if (!text) throw `Example : ${prefix + command} FanzOffc, 7, 7, 2005`
  let [nama, tgl, bln, thn] = text.split`,`
  let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
  if (anu.status == false) return m.reply(anu.message)
@@ -5700,7 +5700,7 @@ let teksoooo = '┌──⭓「 *LIST PDF* 」\n│\n'
 for (let x of docunye) {
 teksoooo = `│⭔ ${x}\n`
 }
-teksoooo = `│\n└────────────⭓\n\n*Total ada : ${docunye.length} \n\n Contoh 1 : sendpdf TaaOfc + sambil reply pesan target* \n\n Contoh 2 : yopdf TaaOfc`
+teksoooo = `│\n└────────────⭓\n\n*Total ada : ${docunye.length} \n\n Contoh 1 : sendpdf FanzOffc + sambil reply pesan target* \n\n Contoh 2 : yopdf FanzOffc`
 m.reply(teksoooo)
 }
 break
@@ -5767,7 +5767,7 @@ let teksooooo = '┌──⭓「 *LIST ZIP* 」\n│\n'
 for (let x of zipnye) {
 teksooooo = `│⭔ ${x}\n`
 }
-teksooooo = `│\n└────────────⭓\n\n*Total ada : ${zipnye.length} \n\n Contoh 1 : sendzip TaaOfc + sambil reply pesan target* \n\n Contoh 2 : yozip TaaOfc`
+teksooooo = `│\n└────────────⭓\n\n*Total ada : ${zipnye.length} \n\n Contoh 1 : sendzip FanzOffc + sambil reply pesan target* \n\n Contoh 2 : yozip FanzOffc`
 m.reply(teksooooo)
 }
 break
@@ -5835,7 +5835,7 @@ let teksoooooo = '┌──⭓「 *LIST APK* 」\n│\n'
 for (let x of apknye) {
 teksoooooo = `│⭔ ${x}\n`
 }
-teksoooooo = `│\n└────────────⭓\n\n*Total ada : ${apknye.length} \n\n Contoh 1 : sendapk TaaOfc + sambil reply pesan target* \n\n Contoh 2 : yoapk TaaOfc`
+teksoooooo = `│\n└────────────⭓\n\n*Total ada : ${apknye.length} \n\n Contoh 1 : sendapk FanzOffc + sambil reply pesan target* \n\n Contoh 2 : yoapk FanzOffc`
 m.reply(teksoooooo)
 }
 break
@@ -6212,7 +6212,7 @@ Premium: ${isPrem ? '✅' : '❎'}
 
 ❉ 𝗜𝗻𝗳𝗼 𝗕𝗼𝘁
 ━━━━.✾.━━━━━━━━━━━━━━━━━━━━
-𝙽𝚊𝚖𝚊 : 𝗥𝘆𝗼 𝗬𝗮𝗺𝗮𝗱𝗮
+𝙽𝚊𝚖𝚊 : 𝗙𝗮𝗻𝘇𝗕𝗼𝘁𝘇𝘇
 𝙼𝚘𝚍𝚎 : 𝗣𝘂𝗯𝗹𝗶𝗰
 𝙿𝚛𝚎𝚏𝚒𝚡 : .
 𝚄𝚙𝚝𝚒𝚖𝚎 : ⏳ ${runtime(process.uptime())}
@@ -6222,7 +6222,7 @@ Premium: ${isPrem ? '✅' : '❎'}
 
 ${teks}
 •-------------------------------------------------•
-*Pricelist Harga TaaOfc Panel* :
+*Pricelist Harga FanzOffc Panel* :
 
 1GB RAM/1GB Disk/25% CPU
 Rp1.000/1 BULAN
@@ -6457,7 +6457,7 @@ var buu = fs.readFileSync(`./database/Audio/${text}.mp3`)
 okta.sendMessage('status@broadcast', {audio: buu, mimetype:'audio/mp4', ptt:true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
 mediaUrl: 'https://instagram.com/@oktaofcrill',
-title: `TaaOfc`,
+title: `FanzOffc`,
 sourceUrl: `https://instagram.com/@oktaofcrill`, 
 thumbnail: thumb}}},{
 backgroundColor: '#FF000000',
