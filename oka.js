@@ -409,7 +409,7 @@ if (!m.key.fromMe) return
 if (setting.autobio === false) return
 let settingstatus = 0;
 if (new Date() * 1 - settingstatus > 1000) {
-await okta.setStatus(`I'm Ryo Yamada 🤖 | ${runtime(process.uptime())} ⏰ | Status : ${okta.mode ? "Public Mode" : "Self Mode"} | 1.3k Users`)
+await okta.setStatus(`I'm FanzOffc 🤖 | ${runtime(process.uptime())} ⏰ | Status : ${okta.mode ? "Public Mode" : "Self Mode"} | 1.3k Users`)
 settingstatus = new dt() * 1
 }
      }*/
@@ -962,7 +962,7 @@ Selamat ${ucapanWaktu}
 
 
  _Unduh Script Ini Melalui Tautan Dibawah Ini_
- *_https://FanzOffc-panel.my.id_*
+ *gada*
 •-------------------------------------------------•`
                         }
                     },
@@ -1050,11 +1050,11 @@ const text12 = `*Hi ${pushname}👋*
 
 ▭▬▭▬▭▬▭▬▭▬▭▬▭▬
 「 *BOT INFO* 」
-⭔Nama Creator : *Okta*
+⭔Nama Creator : *Fanz*
 ⭔Nomor Creator : *@${owned.split("@")[0]}*
-⭔Nama Script : *Ryo*
+⭔Nama Script : *FanzBotzz*
 ⭔Versi Script : *2.0*
-⭔Botz Name : *Ryo Yamada*
+⭔Botz Name : *FanzBotzz*
 ⭔Type Baileys : *Case*
 ▭▬▭▬▭▬▭▬▭▬▭▬▭▬
 
@@ -1091,12 +1091,12 @@ case "sosmed":
  reply( `*Hi ${pushname}👋*
 
 *_Social Media_*
-*IG : ▣https://www.instagram.com/oktaofcrill*
-*YT : ▣https://youtube.com/@FanzOffc*
-*GH : ▣https://github.com/ChataOfc*
-*WEBSITE : ▣https://FanzOffc-panel.my.id/*
-*GC : ▣https://chat.whatsapp.com/IRRkLJqImnuB6lCjGzyME0*
-*INFO UPDATE BOT : ▣https://whatsapp.com/channel/0029VaF1TzwJf05gzljsO43l*
+*IG : ▣https://www.instagram.com/-*
+*YT : ▣https://youtube.com/@-*
+*GH : ▣https://github.com/-*
+*WEBSITE : ▣https://-/*
+*GC : ▣https://chat.whatsapp.com/-*
+*INFO UPDATE BOT : ▣https://whatsapp.com/-*
 
 Powered By *@${owned.split("@")[0]}*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬`)
@@ -1123,7 +1123,7 @@ case "donasi":
                             text: 
                             
                             `
-  ╭───── 𝙍𝙮𝙤 ─────
+  ╭───── 𝐅𝐚𝐧𝐳 ─────
   
         𝗗𝗮𝗻𝗮   : ${dana}
         𝗚𝗼𝗽𝗮𝘆  : ${gopay}
@@ -1131,7 +1131,7 @@ case "donasi":
         
   _Terima Kasih Atas Donasinya :>_  
         
-  └──── 𝙱𝚢 𝚃𝚊𝚊𝙾𝚏𝚌 ──┘`
+  └──── 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳𝐳 ──┘`
                         }
                     },
                     requestFrom: m.sender
@@ -2101,14 +2101,14 @@ case "bot":
  reply(`*Hi ${pushname}*
 
 「 *BOT INFO* 」
-⭔Nama Creator : *Okta*
+⭔Nama Creator : *Fanz*
 ⭔Nomor Creator : *${owner}*
 ⭔Group Official : *${ofc}*
-⭔Nama Script : *Ryo*
+⭔Nama Script : *FanzBotzz*
 ⭔Daftar User :*${("id", db_user).length}*
 ⭔Versi Bot : *2.3*
-⭔Botz Name : *Ryo Yamada*
-⭔Nomor Bot : *wa.me/6285749543572*
+⭔Botz Name : *FanzBotzz*
+⭔Nomor Bot : *wa.me/6285812373011*
 ⭔Type Baileys : *Case*
 ⭔Source Code : *${okta}*
 ⭔Uptime : ⏳ *${runtime(process.uptime())}*
@@ -2793,8 +2793,8 @@ throw 'Format salah, hanya 0-9 dan Simbol -, +, *, /, ×, ÷, π, e, (, ) yang d
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
 🧑‍💻 Info Owner: ${ownername}
-😶 Status Owner: Jomblo 🥺
-🗿 Info Bot: Ryo Yamada
+😶 Status Owner: kepo🗿
+🗿 Info Bot: FanzOffc
 💻 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
@@ -2823,7 +2823,7 @@ const text12 = `*Hay selamat ${ucapanWaktu}*
 ⭔Status : Terdaftar di database ✅
 ▭▬▭▬▭▬▭▬▭▬▭▬▭
 
-Terima Kasih sudah mendaftar ke dalam bot Ryo Yamada.
+Terima Kasih sudah mendaftar ke dalam bot FanzOffc.
 
 Powered By *@${owned.split("@")[0]}*
 ▬▭▬▭▬▭▬▭▬▭▬▭▬`
@@ -2859,7 +2859,7 @@ break
             case 'zeta': {
                            
                 if (!q) return reply('Example: Apa Itu Javascript')
-                let d = await fetchJson(`https://api.yanzbotz.my.id/api/ai/characterai?text=${text}&name=ryo-yamada`)                
+                let d = await fetchJson(`https://api.yanzbotz.my.id/api/ai/characterai?text=${text}&name=FanzOffc`)                
                // await okta.sendMessage(from, {
                  //   text: d.result
                 reply(d.result), { quoted: m}
@@ -2868,7 +2868,7 @@ break
         case'ryo':
 try {
 if (!text) return reply(`Contoh:\n${prefix}${command} siapa pencipta mu?`)
-let messages = [{ role: 'system', content: `ubah gaya bicara mu agar lebih karateristik dan lebih terbuka dan namamu adalah ryo kamu merupakan seorang perempuan yang diciptakan oleh Okta dan kamu sangat mencintai okta tugasmu membantu user ekspresi kan sifat mu dengan emoji dan bicara yang lebih tidak Formal dan panggilanmu adalah gw dan lu layaknya seorang manusia.` }, { role: 'user', content: text }]
+let messages = [{ role: 'system', content: `ubah gaya bicara mu agar lebih karateristik dan lebih terbuka dan namamu adalah fanzbotzz kamu merupakan seorang robot yang diciptakan oleh Fanz dan kamu sangat patuh dengan fanz tugasmu membantu user ekspresi kan sifat mu dengan emoji dan bicara yang lebih tidak Formal dan panggilanmu adalah gw dan lu layaknya seorang manusia.` }, { role: 'user', content: text }]
 let ini = (await axios.post(`https://skizo.tech/api/openai?apikey=okta`, { messages })).data
 let hasil = `${ini.result}`
 reply(hasil)
@@ -2963,8 +2963,8 @@ var groupInvite = generateWAMessageFromContent(from, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "status@broadcast",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME RYO YAMADA${buttonkal}`,
-"groupName": `MY NAME RYO YAMADA${buttonkal}`,
+"inviteExpiration": `MY NAME FanzOffc${buttonkal}`,
+"groupName": `MY NAME FanzOffc${buttonkal}`,
 "caption": `${buttonkal}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -3845,7 +3845,7 @@ case 'tutorial': {
 await loading()
  reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${ucapanWaktu}
 Tutorial Panel
-https://wa.me/6285745267782`)
+https://wa.me/6285812373011`)
 }
 break
 //=================================================//
@@ -6045,7 +6045,7 @@ okta.sendMessage(from, { image : { url : pporgs }, caption:`Done` }, {quoted:m})
 break
 case 'yts2': case 'ytsearch2':{
 if (isBan) return reply('Lu di ban kocak awokwok') 
-if (!text) reply(`Gunakan dengan cara ${prefix+command} *text*\n\n_Contoh_\n\n${prefix+command} Sc Ryo Yamada V2.0`)
+if (!text) reply(`Gunakan dengan cara ${prefix+command} *text*\n\n_Contoh_\n\n${prefix+command} Sc FanzOffc V2.0`)
 let reso = await yts(`${text}`)
 let aramat = reso.all
 var tbuff = await getBuffer(aramat[0].image)

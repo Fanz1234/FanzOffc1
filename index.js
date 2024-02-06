@@ -44,7 +44,7 @@ output: process.stdout
 rl.question(text, resolve)
   })
 };
-/*const fkontak = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `Ryo By TaaOfc`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;TaaOfc,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/3c485ff201d9337be14ef.jpg' }}}}*/
+/*const fkontak = { key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { 'contactMessage': { 'displayName': `By FanzOffc`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;FanzOffc,;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': { url: 'https://telegra.ph/file/3c485ff201d9337be14ef.jpg' }}}}*/
 //=================================================//
 var low
 try {
@@ -119,13 +119,13 @@ spins.succeed(id, {text: text})
 
 }
 //=================================================//
-CFonts.say("SC PAIRINK BY TAAOFC", {
+CFonts.say("SC PAIRINK BY FanzOffc", {
    font: 'chrome',
   align: 'left',
   gradient: ['red', 'magenta'],
 });
 CFonts.say(
-  "Sc Bot By TaaOfc\nBase: Ori HwMods\nRecodeBy:TaaOfc\nHwVersion:22\nRuning:Panel\n\n\nSc Ini Udah No Enc, Jangan Dijual Sat!\n\n\n",
+  "Sc Bot By FanzOffc\nBase: Ori HwMods\nRecodeBy:FanzOffc\nHwVersion:22\nRuning:Panel\n\n\nSc Ini Udah No Enc, Jangan Dijual Sat!\n\n\n",
   {
     colors: ["system"],
     font: "console",
@@ -384,7 +384,7 @@ let list = []
 for (let i of kon) {
 list.push({
 displayName: await oka.getName(i + '@s.whatsapp.net'),
-vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await oka.getName(i + '@s.whatsapp.net')}\nFN:${await oka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:zyyyzeus@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://taaofc-panel.my.id\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`})}
+vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await oka.getName(i + '@s.whatsapp.net')}\nFN:${await oka.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:zyyyzeus@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://FanzOffc-panel.my.id\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`})}
 //=================================================//
 oka.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })}
 //=================================================//
@@ -571,16 +571,16 @@ console.log(`${color(`[`,`white`)+color(`3`,`red`)+color(`]`,`white`)}`,`Base Sc
 //await sleep(400)  
 console.log(`${color(`[`,`white`)+color(`4`,`red`)+color(`]`,`white`)}`,"date 5") 
 //await sleep(400)  
-console.log(color(`─[`,`magenta`),`「`,  color(`TaaOfc`,`red`), `」`,  color(`]─`,`magenta`))
+console.log(color(`─[`,`magenta`),`「`,  color(`FanzOffc`,`red`), `」`,  color(`]─`,`magenta`))
 //await sleep(400)  
 start(`1`,`Connecting...`)
 } else if (connection === "open") {
-  oka.sendMessage('6285745267782' + "@s.whatsapp.net", { text: `*Ryo Versi 2*
+  oka.sendMessage('6285812373011' + "@s.whatsapp.net", { text: `*Ryo Versi 2*
   Telah Terhubung!!, Ketik .Menu untuk menampilkan command!
   
-  *_Jangan Lupa Untuk Subscribe Channel TaaOfc Untuk Mendapatkan Info Terbaru._*
+  *_status aktif._*
   
-  *https://youtube.com/@taaofc*` });
+  **` });
   success(`1`,`[■■■■■■■■■■■■■■■] Connected`) 
 }
 // console.log('Connected...', update)
