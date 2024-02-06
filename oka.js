@@ -916,7 +916,7 @@ sourceUrl: `https://whatsapp.com/channel/0029VaGJcol1t90fUNWmkY0s`,
 case "all":
        case "allmenu":
        case "fanzall":
-    //   if (!isRegistered) return replyMsg('Kamu belum daftar!\nSilahkan daftar dengan cara *.daftar nama.umur!*')
+    //   if (!isRegistered) return replyMsg('Kamu belum daftar!\nSilahkan daftar dengan cara *.daftar nama|umur!*')
        await loading()
        let oktaall = `
 ┏❏═┅═━–〈 Iɴғᴏ
