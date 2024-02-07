@@ -2844,7 +2844,8 @@ renderLargerThumbnail: true
 break
                                                                            
 //=================================================
- case 'miku': {
+ case 'miku':
+ case 'fan':{
                
     if(!text) return reply(`masukan text`)
     let api = await fetch(`https://api-kazedevid.vercel.app/ai/charaai?chara=Miku&text=${text}`)
